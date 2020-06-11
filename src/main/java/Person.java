@@ -25,11 +25,6 @@ public class Person {
             }
             punctuation += interest[i];
         }
-//        for(int i=0; i<interest.length; i++){
-//
-//            message = "Hello, my name is " + name +" and I am "+ age + " years old. My interests are "+ interest[i] +".";
-//
-//        }
         message = "Hello, my name is " + name +" and I am "+ age + " years old. My interests are ";
         return message+punctuation+".";
     }
